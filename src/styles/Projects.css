@@ -1,0 +1,35 @@
+*
+{ font-family: 'Baloo Bhai', cursive;}
+.card
+{width: 70%;}
+.firstcontainer
+{display: flex;
+flex-direction:column;
+margin: 20px;
+padding:20px;
+justify-content: center;
+align-items: center;
+}
+.vartitle
+{text-decoration: underline;
+color:black;}
+
+.one{
+margin:10px;
+}
+@media only screen and (min-width:579px) and (max-width: 810px) {
+    .card {
+     width:90%;
+     
+    }
+}
+@media only screen and  (max-width: 579px) {
+    .card {
+     width:100%;
+     
+    }
+}
+
+h2{
+    text-align:center;
+}

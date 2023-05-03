@@ -1,0 +1,30 @@
+
+.addskills {
+    width: 100%;
+ min-height: 100%;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+  }
+  
+  .addskills h1 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+  }
+  .listitem
+  { font-size: 25px;}
+  
+  .addskills .list {
+    list-style: none;
+    color:black;
+  }
+  .list {
+    padding: 0;
+  }
+ 
+@media only screen {
+  .addskills h1
+  { font-size: 32px;}
+  .listitem
+  { font-size: 22px;}
+}
